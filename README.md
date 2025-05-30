@@ -1,6 +1,6 @@
  # 🛠️ SketchNC Tools
 
-A collection of utility scripts and automated testing tools for the [SketchNC](repo comming soon) a low-cost CNC plotter project, built on ESP32 and powered by FluidNC.
+A collection of utility scripts and automated testing tools for the [SketchNC (repo comming soon) a low-cost CNC plotter project, built on ESP32 and powered by FluidNC.
 
 This repository provides modular utilities to simplify diagnostics, motion testing, and future automation tasks for the SketchNC platform.
 
@@ -17,7 +17,7 @@ This script sends continuous or repeated jog commands to the SketchNC machine vi
 - Supports:
   - Custom jog distances (in inches)
   - Speed scaling as % of max feedrate
-  - Fixed or infinite number of cycles (use 0 for infite still needs work)
+  - Fixed or infinite number of cycles (use 0 for infite still needs testing)
 - Detects FluidNC boot state and unlocks the machine
 - Waits for motion to complete between jogs
 - Clean logs of commands and status
